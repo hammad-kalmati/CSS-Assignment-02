@@ -1,0 +1,646 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.header{
+    display: inline;
+}
+img{
+    height: 80px;
+    width: 130px;
+    margin-top: ;
+    margin-left: 15px;
+    color: #DF1461;
+}
+
+.option-1{
+    display: inline-block;
+    margin-left: 230px;
+    margin-bottom: 10px ;
+}
+.home{
+   display: inline-block;
+   height: 70px;
+   width: 70px;
+}
+.home-span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    float: inline-end;
+    margin-top: 25px;
+}
+.option-2{
+   display: inline-block;
+}
+.parachute{
+   display: inline-block;
+   height: 70px;
+   width: 70px;
+}
+.parachute-span{
+    display: inline-block;
+    float: inline-end;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.option-3{
+   display: inline-block;
+}
+.office-bell{
+   display: inline-block;
+   height: 70px;
+   width: 70px;
+}
+.office-bell-span{
+    display: inline-block;
+    float: inline-end;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+
+
+/*globe+navigation*/
+.nav{
+    display: inline-block;
+    float: inline-end;
+}
+.header-span{
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 32px ;
+}
+.globe{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #EBEBEB;
+    border-radius: 50%;
+    padding: 8px;
+    float:right;
+    background-color: #EBEBEB;
+    margin-top: 20px;
+    margin-right: 35px;
+    margin-left: 5px;
+}
+.bars{
+    display: inline-block;
+    box-sizing: border-box;
+    float: right;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #EBEBEB;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #EBEBEB;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+
+#head{
+    background-color: white;
+    border: 1px solid silver;
+    height: 60px;
+    width: 820px;
+    margin: 0px auto;
+    border-radius: 70px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    padding-right: 8px;
+}
+.first-para{
+    display: inline-block;
+    margin-left: 27.5px;
+    margin-right: 90px;
+    margin-top: 10.5px;
+
+}
+.second-para{
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 57px;
+    border-left: 2px solid silver;
+}
+.third-para{
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 57px;
+    border-left: 2px solid silver;
+}
+.fourth-para{
+    display: inline-block;
+    border-left: 2px solid silver;
+    padding-left: 35px;
+}
+.first-sp{
+    font-size: 12px;
+} 
+.second-sp{
+    font-size: 14px;
+}
+.search{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #DE1262;
+    background-color: #DE1262;
+    color: white;
+    border-radius: 50%;
+    margin-top: 6px;
+    height:48px;
+    width: 48px;
+    padding: 10px;
+    float: right;
+}
+h1{
+    font-size: 18px;
+    margin-top: 31px;
+    margin-left: 38px;
+    margin-bottom: 17px;
+}
+hr{
+    margin-top: 40px;
+}
+
+/*Button-Heart-Star*/
+.button{
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-top: 1.5px;
+    height: 30px;
+    width: 110px;
+    font-size: 12px;
+    border: 0.1px solid silver;
+    border-radius: 40px;
+    background-color: #E9E6E5;
+}
+.heart{
+    height: 32px;
+    width: 35px;
+    color: white;
+    fill: #353332;
+    float: inline-end;
+}
+.star{
+    color: gray;
+    height: 8px;
+    width: 9px;
+    margin-right: 2px;
+}
+
+/*/!--First-box*/
+.box-1-container{
+   float: left;
+   display: inline-block;
+   margin-left: 38px;
+}
+.box-1{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-3.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.para-1{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.span-1{
+    font-size: 12px;
+    color: gray;
+}
+
+/*/!--Second-box*/
+.box-2-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-2{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-5.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-2{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-2{
+    font-size: 12px;
+    color: gray;
+}
+
+/*/!--Third-box*/
+.box-3-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-3{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-10.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-3{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-3{
+    font-size: 12px;
+    color: gray;
+}
+.star{
+    color: gray;
+    height: 8px;
+    width: 9px;
+    margin-right: 2px;
+}
+
+/*/!--Fourth-box*/
+.box-4-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-4{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-12.jpg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-4{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-4{
+    font-size: 12px;
+    color: gray;
+}
+
+/*/!--Fifth-box*/
+.box-5-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-5{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-13.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-5{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-5{
+    font-size: 12px;
+    color: gray;
+}
+
+/*/!--Sixth-box*/
+.box-6-container{
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-6{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-3.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-6{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-6{
+    font-size: 12px;
+    color: gray;
+}
+
+
+/*/!-bottom-first-box-*/
+.box-01-container{
+    float: left;
+    display: inline-block;
+    margin-left: 38px;
+}
+.box-01{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-14.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-01{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.span-01{
+    font-size: 12px;
+    color: gray;
+}
+
+/*/!-bottom-second-box-*/
+.box-02-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-02{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-6.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-02{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-02{
+    font-size: 12px;
+    color: gray;
+}
+
+/*bottom-third-box*/
+.box-03-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-03{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-3.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-03{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-03{
+    font-size: 12px;
+    color: gray;
+}
+
+/*bottom-fourth-box*/
+.box-04-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-04{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-7.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-04{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-04{
+    font-size: 12px;
+    color: gray;
+}
+
+/*bottom-fifth-box*/
+.box-05-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-05{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-8.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-05{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-05{
+    font-size: 12px;
+    color: gray;
+}
+
+/*bottom-sixth-box*/
+.box-06-container{
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+}
+.box-06{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    height: 185px;
+    width: 185px;
+    background-image: url(room-9.jpeg);
+    background-size: 217px 195px ;
+    padding-top: 10px;
+    padding-left: 8px ;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.para-06{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.span-06{
+    font-size: 12px;
+    color: gray;
+}
+
+.footer{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
